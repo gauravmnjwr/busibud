@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: white;
-  font: normal normal normal 13px/18px Nunito Sans;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 nav {
@@ -12,6 +12,7 @@ nav {
   justify-content: center;
   height: 120px;
   row-gap: 20px;
+  border-bottom: 1px solid black;
 }
 
 .nav2 {
@@ -98,6 +99,11 @@ nav {
   background-color: #f8fafc;
 }
 
+.main2 h1 {
+  font: normal normal bold 35px/47px Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
 .main2 > div > div {
   width: 250px;
   height: 308px;
@@ -144,7 +150,7 @@ nav {
   row-gap: 50px;
 }
 
-.main3 > div h2 {
+.main3 > div h1 {
   z-index: 3;
 }
 
@@ -191,6 +197,7 @@ nav {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  padding-bottom: 100px;
 }
 
 .main4 > div {
@@ -201,16 +208,16 @@ nav {
 }
 
 .main4_left {
-  width: 50%;
+  width: 40%;
   /* background-color: #1492e6; */
   align-self: flex-start;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .main4_right {
   width: 30%;
   align-self: flex-end;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 .main4 h1 {
   align-self: center;
@@ -394,6 +401,11 @@ footer {
 footer div {
   height: 24px;
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
 }
 
 button {
